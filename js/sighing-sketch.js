@@ -3,7 +3,7 @@ var fontitalic
 var wordcrimson
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function preload() {
@@ -22,6 +22,7 @@ function draw() {
   text('the earth itself,',20, 100);
   
   textFont(fontitalic);
+  textSize(width/25);
   
  // text('s   i   g   h   i   n   g', 485, 60);
   if (mouseX > 500 & mouseY > 250){
@@ -76,6 +77,12 @@ function draw() {
   
   fill(217, 237, 255);
   text('like radishes even here.', 580, 750);
-  
+
+  if (mouseX > width*1.85/2 & mouseY > height*1.83/2){
+  fill(180,0,0);
+  textFont (font);
+  textSize(width/60);
+      text("next",width*1.9/2, height*1.93/2);
+  }
  // triangle()
 }

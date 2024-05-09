@@ -1,9 +1,24 @@
+@font-face {
+  font-family: 'Redaction50';
+  src: url('font/Redaction50-8Mg4n\ copy.otf');
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 canvas {
   display: block;
+}
+
+footer {
+  font-size: 1rem;
+    font-style:'Redaction50';
+    color: #B40000;
+    margin: auto;
+    display: flex;
+    padding-left: 95%;
+    justify-content: space-between;
 }
 
 #invisible-link {
@@ -19,3 +34,74 @@ canvas {
   width: 100%;
   height: 100%;;
 }
+
+#invisible-link2 {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  width: 30%;
+  height: 10%;
+}
+
+#invisible-link2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#invisible-link3 {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  width: 30%;
+  height: 10%;
+}
+
+#invisible-link3 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#invisible-link4 {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  width: 30%;
+  height: 10%;
+}
+
+#invisible-link4 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#invisible-link5 {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  width: 30%;
+  height: 10%;
+}
+
+#invisible-link5 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* #life-link a {
+  color: #B40000;
+  font-style: "Redaction50";
+  padding-left: 80%;
+  padding-top: 80%;
+  text-decoration: none;
+}
+  a {
+  color: #B40000 ;
+  position: absolute;
+  left: 80%;
+  top: 80%;
+}
+*/

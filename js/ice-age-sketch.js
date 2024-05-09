@@ -18,6 +18,7 @@ function draw() {
   background('white');
   mappedXposition = map(mouseX,300, width,1000,830);
   textFont(font);
+  textSize(width/25);
   fill(180,0,0)
   mappedYposition = map(mouseY,0, width, 200, 400);
   
@@ -180,5 +181,11 @@ function draw() {
   fill(217, 237, 255)
   text('to the body of its final temperature.', 20, 715);
   
+  if (mouseX > width*1.8/2 & mouseY > height*1.83/2){
+  fill(180,0,0);
+  textFont (font);
+  textSize(width/60);
+      text("next",width*1.9/2, height*1.93/2);
+  }
 }
 
