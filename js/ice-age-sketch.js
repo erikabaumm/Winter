@@ -19,7 +19,7 @@ function draw() {
   mappedXposition = map(mouseX,300, width,1000,830);
   textFont(font);
   textSize(width/25);
-  fill(180,0,0)
+  fill(180,0,0);
   mappedYposition = map(mouseY,0, width, 200, 400);
   
   if(mouseIsPressed){

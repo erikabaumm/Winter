@@ -169,7 +169,7 @@ function draw() {
   fill(217, 237, 255);
   //if (mouseX > 580 & mouseY > 320){
   if (keyIsPressed){
-    text('finds no', 1190, 590)
+    text('finds no', 1190, 590);
   
   text("ham operator's ear.", 900, 650);
   }
