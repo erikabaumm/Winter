@@ -179,7 +179,7 @@ function draw() {
   fill(180,0,0);
   textFont (font);
   textSize(width/60);
-      text("beginning",width*1.82/2, height*1.9/2);
+      text("beginning",width*1.82/2, height*1.85/2);
   }
   }
    // text('finds no', 1190, 850)
